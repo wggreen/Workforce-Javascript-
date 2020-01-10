@@ -100,5 +100,71 @@
             "name": "Memphis",
             "id": 3
         }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Gandalf Inc"
+        },
+        {
+            "id": 2,
+            "name": "Pails & Money"
+        },
+        {
+            "id": 3,
+            "name": "Hatchets & Flag"
+        },
+        {
+            "id": 4,
+            "name": "Stars and Lumber"
+        },
+        {
+            "id": 5,
+            "name": "Duck & Dovetail"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 5,
+            "rate": 60,
+            "contractLength": 180
+        },
+        {
+            "id": 2,
+            "employeeId": 3,
+            "customerId": 4,
+            "rate": 75,
+            "contractLength": 540
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 3,
+            "rate": 110,
+            "contractLength": 195
+        },
+        {
+            "id": 4,
+            "employeeId": 1,
+            "customerId": 2,
+            "rate": 250,
+            "contractLength": 80
+        },
+        {
+            "id": 5,
+            "employeeId": 1,
+            "customerId": 1,
+            "rate": 250,
+            "contractLength": 80
+        },
+        {
+            "id": 6,
+            "employeeId": 1,
+            "customerId": 2,
+            "rate": 250,
+            "contractLength": 80
+        }
     ]
 }

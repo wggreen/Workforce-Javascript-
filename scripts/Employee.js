@@ -1,4 +1,4 @@
-const Employee = (employee, computer, department, location) => {
+const Employee = (employee, computer, department, location, customers) => {
     return `
         <section class="employee">
             <header>
@@ -15,6 +15,16 @@ const Employee = (employee, computer, department, location) => {
             </div>
             <div>
                 Location: ${location.name}
+            </div>
+            <div>
+                <h1>Currently working for...</h1>
+                <ol>
+                    ${
+                        customers.map(customer => {
+                            return `<li>${customer.name}</li>`
+                        }).join("")
+                    }
+                </ol>
             </div>
         </section>
     `
